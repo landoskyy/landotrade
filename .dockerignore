@@ -1,0 +1,16 @@
+.env
+config.json
+*.log
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.git/
+.gitignore
+README.md
+.DS_Store
