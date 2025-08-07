@@ -23,5 +23,5 @@ RUN poetry config virtualenvs.create false \
 # Expose port
 EXPOSE 8080
 
-# Run the server
-CMD ["python", "main.py"]
+# Run the HTTP server (accessible from outside)
+CMD ["poetry", "run", "start"]
